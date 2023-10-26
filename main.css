@@ -35,6 +35,18 @@ input{
 .branch{
    cursor: pointer;
 }
+.branch:hover{
+   background-color: rgba(104, 104, 104, 0.562);
+   color: white;
+}
+.branch_kod{
+   margin-left: 20px;
+   cursor: pointer;
+}
+.branch_kod:hover{
+   background-color: rgba(104, 104, 104, 0.562);
+   color: white;
+}
 
 /* #cards{
    

@@ -62,6 +62,13 @@ function z15() {
    window.open("z15_Ejsm.html", "okienko_z15","toolbar=no, directories=no, menubar=no, height=500, width=600, top=350, left=600");
 }
 
+function z16() {
+   window.open("z16_Ejsm.html", "okienko_z16","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+
+
+
 function z11_kod() {
    window.open("z11_Ejsm_kod.html", "okienko_z11_kod","toolbar=no, directories=no, menubar=no, height=500, width=600, top=350, left=600");
 }
@@ -80,4 +87,8 @@ function z14_kod() {
 
 function z15_kod() {
    window.open("z15_Ejsm_kod.html", "okienko_z15_kod","toolbar=no, directories=no, menubar=no, height=500, width=600, top=350, left=600");
+}
+
+function z16_kod() {
+   window.open("z16_Ejsm_kod.html", "okienko_z16_kod","toolbar=no, directories=no, menubar=no, height=500, width=600, top=350, left=600");
 }
