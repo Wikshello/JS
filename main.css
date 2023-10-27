@@ -64,7 +64,7 @@ input{
    height: 120px;
    border-radius: 10px;
    width: 140px;
-   text-wrap: wrap;
+   white-space: normal;
    color: rgb(0, 38, 255);
    background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
    transition: all .2s ease-in-out;
@@ -82,7 +82,7 @@ input{
    height: 120px;
    border-radius: 10px;
    width: 140px;
-   text-wrap: wrap;
+   white-space: normal;
    color: rgb(0, 38, 255);
    background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
    transition: all .2s ease-in-out;
@@ -103,7 +103,7 @@ input{
    height: 120px;
    border-radius: 10px;
    width: 140px;
-   text-wrap: wrap;
+   white-space: normal;
    color: rgb(255, 238, 0);
    background: linear-gradient(90deg, hsla(212, 93%, 49%, 1) 0%,hsla(210, 90%, 80%, 1) 100%);
    transition: all .2s ease-in-out;
