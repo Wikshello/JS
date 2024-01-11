@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+</head>
+<body>
+   <textarea cols="100" rows="40">
+      <html>
+      <head>
+         <script type="text/javascript">
+            function pociag(przewoznik,kategoria,maksymalna_predkosc)//początek konstruktora
+            {
+            this.przewoznik='PKP';
+            this.kategoria='Express InterCity';
+            this.maksymalna_predkosc='250km/h';
+            }//koniec konstruktora
+
+            pociag.prototype.wypisz = function () //definicja metody
+            {
+            alert(this.przewoznik + ' ' + this.kategoria+ ' ' + this.maksymalna_predkosc);
+            };
+
+            var pociag1 = new pociag("SKM", "Sprinter", "120km/h"); // nowy obiekt osoba1
+            var pociag2 = new pociag('Polregio', 'Regio', '160km/h');
+            pociag1.wypisz(); // uruchomienie metody wypisz() dotyczącej osoby 1
+            pociag2.wypisz();
+            document.write("dostęp do właściwości"+"<br>");
+            // poniżej dostęp do pól osoby1
+            document.write("Pociag pierwszy"+" "+pociag1.przewoznik+" "+pociag1.kategoria+" "+pociag1.maksymalna_predkosc+"<br>");
+            document.write("Pociag drugi"+" "+pociag2.przewoznik+" "+pociag2.kategoria+" "+pociag2.maksymalna_predkosc);
+         </script>
+      </head>
+      <body>
+         <br>
+         programowanie obiektowe
+      </body>
+      </html>
+   </textarea>
+</body>
+</html>
