@@ -3,9 +3,9 @@
    <script type="text/javascript">
       function pociag(przewoznik,kategoria,maksymalna_predkosc)//początek konstruktora
       {
-      this.przewoznik='PKP';
-      this.kategoria='Express InterCity';
-      this.maksymalna_predkosc='250km/h';
+      this.przewoznik=przewoznik;
+      this.kategoria=kategoria;
+      this.maksymalna_predkosc=maksymalna_predkosc;
       }//koniec konstruktora
 
       pociag.prototype.wypisz = function () //definicja metody
@@ -19,8 +19,8 @@
       pociag2.wypisz();
       document.write("dostęp do właściwości"+"<br>");
       // poniżej dostęp do pól osoby1
-      document.write("Pociag pierwszy"+" "+pociag1.przewoznik+" "+pociag1.kategoria+" "+pociag1.maksymalna_predkosc+"<br>");
-      document.write("Pociag drugi"+" "+pociag2.przewoznik+" "+pociag2.kategoria+" "+pociag2.maksymalna_predkosc);
+      document.write("Pociag pierwszy"+" &nbsp;Przewoźnik: "+pociag1.przewoznik+" &nbsp;Kategoria: "+pociag1.kategoria+" &nbsp;Max predkość: "+pociag1.maksymalna_predkosc+"<br>");
+      document.write("Pociag drugi"+" &nbsp;Przewoźnik: "+pociag2.przewoznik+" &nbsp;Kategoria: "+pociag2.kategoria+" &nbsp;Max predkość: "+pociag2.maksymalna_predkosc);
    </script>
 </head>
 <body>
