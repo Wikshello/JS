@@ -7,12 +7,18 @@
 <body>
    <div style="color: navy; font-size: 50px;">
       <script language="JavaScript">
-         var l1=prompt("Podaj pierwszą liczbę");
-         var l2=prompt("Podaj drugą liczbę");
-         var a=parseFloat(l1);
-         var b=parseFloat(l2);
-         var wynik=Math.pow((a+b), 3);
-         document.write("("+a+" + "+b+")<sup>3</sup> = "+a+"<sup>3</sup> + 3 * "+a+"<sup>2</sup> * "+b+" + 3 * "+a+" * "+b+"<sup>2</sup> + "+b+"<sup>3</sup> = "+wynik);
+        var l1=prompt("Podaj pierwszą liczbę");
+        var l2=prompt("Podaj drugą liczbę");
+        var a=parseFloat(l1);
+        var b=parseFloat(l2);
+        var wynik=Math.pow((a+b), 3);
+        var cz1=Math.pow(a, 3);
+        var cz2=3*(a*a)*b;
+        var cz3=3*a*(b*b);
+        var cz4=Math.pow(b, 3);
+        document.write("a="+a+"<br>");
+        document.write("b="+b+"<br>");
+        document.write("("+a+" + "+b+")<sup>3</sup> = "+a+"<sup>3</sup> + 3 * "+a+"<sup>2</sup> * "+b+" + 3 * "+a+" * "+b+"<sup>2</sup> + "+b+"<sup>3</sup> = "+cz1+" + "+cz2+" + "+cz3+" + "+cz4+" = "+ wynik);
       </script>
    </div>
 </body>
