@@ -87,6 +87,39 @@ function z32() {
    window.open("z32_Ejsm.html", "okienko_z32","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
 }
 
+function z35() {
+   window.open("z35_Ejsm.html", "okienko_z35","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z36() {
+   window.open("z36_Ejsm.html", "okienko_z36","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z38() {
+   window.open("z38_Ejsm.html", "okienko_z37","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z39() {
+   window.open("z39_Ejsm.html", "okienko_z39","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z40() {
+   window.open("z40_Ejsm.html", "okienko_z40","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z38w() {
+   window.open("z38w_Ejsm.html", "okienko_z37w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
