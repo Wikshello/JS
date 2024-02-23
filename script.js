@@ -111,6 +111,22 @@ function z38w() {
    window.open("z38w_Ejsm.html", "okienko_z37w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
 }
 
+function z42w() {
+   window.open("z42w_Ejsm.html", "okienko_z42w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z43w() {
+   window.open("z43w_Ejsm.html", "okienko_z43w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z44w() {
+   window.open("z44w_Ejsm.html", "okienko_z44w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z45w() {
+   window.open("z45w_Ejsm.html", "okienko_z45w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
 
 
 
