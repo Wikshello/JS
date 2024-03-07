@@ -1,33 +1,54 @@
+/* *{border: 1px red dotted;} */
 body{
    background-color: silver;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 15px;
+   color: black;
 }
-hr{
-   border: 2px dotted blue;
+/* hr{
+   border: 3px dashed yellow;
    width: 55%;
+} */
+.instr_w{
+   margin-left: 20px;
+   color: green;
 }
 ul{
    list-style-image: url('https://api.iconify.design/healthicons/l-outline.svg');
 }
-input{
+.vl{
+   border-left: 10px solid yellowgreen;
+   margin: 0;
+   height: 100%;
+}
+
+
+/* input{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 15px;
-}
+} */
 
-#content{
+/* #content{
    display: grid;
    grid-template-columns: 250px auto;
-}
+} */
 
 #menu{
+   margin: 30px;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 5px;
    background-color: rgba(161, 161, 161, 0.562);
    border-radius: 20px;
+   display: grid;
+   column-gap: 2%;
+   grid-template-columns: auto 2% auto;
 }
 .menudzial{
-   margin-top: 15px;
-   margin-bottom: 10px;
+   margin-bottom: 2px;
    margin-left: 15px;
+   font-weight: bold;
+   font-size: 18px;
 }
 .menulist{
    margin: 0;
@@ -48,10 +69,45 @@ input{
    color: white;
 }
 
+#instr_w{
+   width: 100%;
+}
+.menudzial_w{
+   margin-bottom: 2px;
+   margin-left: 15px;
+   color: rgb(23, 110, 23);
+   font-weight: bold;
+   font-size: 18px;
+}
+.menulist_w{
+   margin: 0;
+}
+.branch_w{
+   cursor: pointer;
+   color: rgb(157, 247, 39);
+   /* color: rgb(193, 245, 126); */
+}
+.branch_w:hover{
+   /* color: rgb(63, 44, 4); */
+   color: brown;
+   background-color: rgb(255, 153, 0);
+}
+.branch_kod_w{
+   margin-left: 20px;
+   cursor: pointer;
+   color: rgb(157, 247, 39);
+}
+.branch_kod_w:hover{
+   color: brown;
+   background-color: rgb(255, 153, 0);
+}
+
 /* #cards{
    
 } */
-.nrdzialu{
+
+
+/* .nrdzialu{
    font-size: 30px;
    text-align: center;
    font-weight: bold;
@@ -112,6 +168,6 @@ input{
 }
 .dzial3:hover{
    transform: scale(1.1);
-}
+} */
 
-/* *{border: 1px red dotted;} */
+

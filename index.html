@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
    <meta charset="UTF-8">
    <title> Wiktor Ejsmont </title>
@@ -7,15 +7,16 @@
    <script src="script.js"> </script>
 </head>
 <body>
-   <div id="content">
-      <div id="menu">
-         <p class="menudzial"> Dział 1 </p>
+   <!-- <div id="content"> -->
+   <div id="menu">
+      <div id="instr">
+         <p class="menudzial"> Wiadomości wstępne </p>
          <ul class="menulist">
             <li class="branch" onclick="z1(' ')"> Zadanie 1 </li>
             <li class="branch" onclick="z2(' ')"> Zadanie 2 </li>
          </ul>
 
-         <p class="menudzial"> Dział 2 </p>
+         <p class="menudzial"> Praca z okrami </p>
          <ul class="menulist">
             <li class="branch" onclick="z3(' ')"> Zadanie 3 </li>
             <li class="branch" onclick="z4(' ')"> Zadanie 4 </li>
@@ -23,7 +24,7 @@
             <li class="branch" onclick="zal3_5(' ')"> Szkielet zaliczeniowy </li>
          </ul>
 
-         <p class="menudzial"> Dział 3 </p>
+         <p class="menudzial"> Okienka dialogowe, Sterowanie wydrukami </p>
          <ul class="menulist">
             <li class="branch" onclick="z6(' ')"> Zadanie 6 </li>
             <li class="branch" onclick="z7(' ')"> Zadanie 7 </li>
@@ -43,9 +44,53 @@
             <li class="branch" onclick="z16(' ')"> Zadanie 16 </li>
             <li class="branch_kod" onclick="z16_kod(' ')"> Zadanie 16 kod </li>
          </ul>
+
+         <p class="menudzial"> Programowanie obiektowe</p>
+         <ul class="menulist">
+            <li class="branch" onclick="z28(' ')"> Zadanie 28 </li>
+            <li class="branch" onclick="z29(' ')"> Zadanie 29 </li>
+            <li class="branch" onclick="z30(' ')"> Zadanie 30 </li>
+            <li class="branch_kod" onclick="z30_kod(' ')"> Zadanie 30 kod </li>
+            <li class="branch" onclick="z31(' ')"> Zadanie 31 </li>
+            <li class="branch_kod" onclick="z31_kod(' ')"> Zadanie 31 kod </li>
+            <li class="branch" onclick="z32(' ')"> Zadanie 32 </li>
+            <li class="branch_kod" onclick="z32_kod(' ')"> Zadanie 32 kod </li>
+         </ul>
+
+         <p class="menudzial"> Instrukcje warnukowe </p>
+         <ul class="menulist">
+            <li class="branch" onclick="z35(' ')"> Zadanie 35 </li>
+            <li class="branch_kod" onclick="z35_kod(' ')"> Zadanie 35 kod </li>
+            <li class="branch" onclick="z36(' ')"> Zadanie 36 </li>
+            <li class="branch" onclick="z38(' ')"> Zadanie 38 </li>
+            <li class="branch" onclick="z39(' ')"> Zadanie 39 </li>
+            <li class="branch" onclick="z40(' ')"> Zadanie 40 </li>
+            <li class="branch_kod" onclick="z40_kod(' ')"> Zadanie 40 kod </li>
+         </ul>
       </div>
 
-      <div class="cards">
+         <div class="vl"></div>
+
+      <div id="instr_w">
+         <h1 class="instr_w"> Instrukcja Wiosna </h1>
+
+         <p class="menudzial_w"> Instrukcje warnukowe </p>
+         <ul class="menulist_w">
+            <li class="branch_w" onclick="z38w(' ')"> Zadanie 38 </li>
+            <li class="branch_kod_w" onclick="z38w_kod(' ')"> Zadanie 38 kod </li>
+         </ul>
+
+         <p class="menudzial_w"> Pętle </p>
+         <ul class="menulist_w"> 
+            <li class="branch_w" onclick="z42w(' ')"> Zadanie 42 </li>
+            <li class="branch_w" onclick="z43w(' ')"> Zadanie 43 </li>
+            <li class="branch_w" onclick="z44w(' ')"> Zadanie 44 </li>
+            <li class="branch_w" onclick="z45w(' ')"> Zadanie 45 </li>
+         </ul>
+      </div>
+   </div>
+
+      <!-- <div class="cards">
 
          <p class="nrdzialu"> Dział 1 </p>
          <div class="dzial1_div">
@@ -111,6 +156,12 @@
             <input type="button" class="" name="zadanie39" value="Zadanie 39 Ejsmont" onclick="z39(' ')">
             <input type="button" class="" name="zadanie40" value="Zadanie 40 Ejsmont" onclick="z40(' ')">
 
+            <h3> Kody </h3>
+            <input type="button" class="dzial4" name="zadanie35_kod" value="Zadanie 35 kod Ejsmont" onclick="z35_kod(' ')">
+            <input type="button" class="dzial4" name="zadanie40_kod" value="Zadanie 40 kod Ejsmont" onclick="z40_kod(' ')">
+            <input type="button" class="dzial4" name="zadanie38w_kod" value="Zadanie 38w kod Ejsmont" onclick="z38w_kod(' ')">
+
+
             <br><br><br>
             <input type="button" class="" name="zadanie38w" value="Zadanie 38w Ejsmont" onclick="z38w(' ')">
 
@@ -122,7 +173,7 @@
             
          </div>
 
-      </div>
-   </div>
+      </div>-->
+   <!-- </div>  -->
 </body> 
 </html>

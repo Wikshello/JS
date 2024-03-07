@@ -177,3 +177,19 @@ function z31_kod() {
 function z32_kod() {
    window.open("z32_Ejsm_kod.html", "okienko_z32_kod","toolbar=no, directories=no, menubar=no, height=720, width=800, top=350, left=600");
 }
+
+function z35_kod() {
+   window.open("z35_Ejsm_kod.html", "okienko_z35_kod","toolbar=no, directories=no, menubar=no, height=720, width=800, top=350, left=600");
+}
+
+function z40_kod() {
+   window.open("z40_Ejsm_kod.html", "okienko_z40_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
+
+
+function z38w_kod() {
+   window.open("z38w_Ejsm_kod.html", "okienko_z38w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
+
+
+
