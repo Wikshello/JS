@@ -111,6 +111,10 @@ function z38w() {
    window.open("z38w_Ejsm.html", "okienko_z38w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
 }
 
+function z41w() {
+   window.open("z41w_Ejsm.html", "okienko_z41w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
 function z42w() {
    window.open("z42w_Ejsm.html", "okienko_z42w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
 }
@@ -125,6 +129,42 @@ function z44w() {
 
 function z45w() {
    window.open("z45w_Ejsm.html", "okienko_z45w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z46w() {
+   window.open("z46w_Ejsm.html", "okienko_z46w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z47w() {
+   window.open("z47w_Ejsm.html", "okienko_z47w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z50w() {
+   window.open("z50w_Ejsm.html", "okienko_z50w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z51w() {
+   window.open("z51w_Ejsm.html", "okienko_z51w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z52w() {
+   window.open("z52w_Ejsm.html", "okienko_z52w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z53w() {
+   window.open("z53w_Ejsm.html", "okienko_z53w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z56w() {
+   window.open("z56w_Ejsm.html", "okienko_z56w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z57w() {
+   window.open("z57w_Ejsm.html", "okienko_z57w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
+}
+
+function z58w() {
+   window.open("z58w_Ejsm.html", "okienko_z58w","toolbar=no, directories=no, menubar=no, height=300, width=900, top=350, left=600");
 }
 
 
@@ -186,10 +226,34 @@ function z40_kod() {
    window.open("z40_Ejsm_kod.html", "okienko_z40_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
 }
 
-
 function z38w_kod() {
    window.open("z38w_Ejsm_kod.html", "okienko_z38w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
 }
 
+function z42w_kod() {
+   window.open("z42w_Ejsm_kod.html", "okienko_z42w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
 
+function z43w_kod() {
+   window.open("z43w_Ejsm_kod.html", "okienko_z43w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
 
+function z44w_kod() {
+   window.open("z44w_Ejsm_kod.html", "okienko_z44w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
+
+function z45w_kod() {
+   window.open("z45w_Ejsm_kod.html", "okienko_z45w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
+
+function z46w_kod() {
+   window.open("z46w_Ejsm_kod.html", "okienko_z46w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
+
+function z47w_kod() {
+   window.open("z47w_Ejsm_kod.html", "okienko_z47w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}
+
+function z50w_kod() {
+   window.open("z50w_Ejsm_kod.html", "okienko_z50w_kod","toolbar=no, directories=no, menubar=no, height=720, width=900, top=350, left=600");
+}

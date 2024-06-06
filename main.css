@@ -5,10 +5,7 @@ body{
    font-size: 15px;
    color: black;
 }
-/* hr{
-   border: 3px dashed yellow;
-   width: 55%;
-} */
+
 .instr_w{
    margin-left: 20px;
    color: green;
@@ -21,17 +18,6 @@ ul{
    margin: 0;
    height: 100%;
 }
-
-
-/* input{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 15px;
-} */
-
-/* #content{
-   display: grid;
-   grid-template-columns: 250px auto;
-} */
 
 #menu{
    margin: 30px;
@@ -101,73 +87,3 @@ ul{
    color: brown;
    background-color: rgb(255, 153, 0);
 }
-
-/* #cards{
-   
-} */
-
-
-/* .nrdzialu{
-   font-size: 30px;
-   text-align: center;
-   font-weight: bold;
-}
-
-.dzial1_div{
-   text-align: center;
-}
-.dzial1{
-   height: 120px;
-   border-radius: 10px;
-   width: 140px;
-   white-space: normal;
-   color: rgb(0, 38, 255);
-   background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-   transition: all .2s ease-in-out;
-   margin-left: 20px;
-   margin-bottom: 20px;
-}
-.dzial1:hover{
-   transform: scale(1.1);
-}
-
-.dzial2_div{
-   text-align: center;
-}
-.dzial2{
-   height: 120px;
-   border-radius: 10px;
-   width: 140px;
-   white-space: normal;
-   color: rgb(0, 38, 255);
-   background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
-   transition: all .2s ease-in-out;
-   margin-left: 20px;
-   margin-bottom: 20px;
-}
-.dzial2:hover{
-   transform: scale(1.1);
-}
-#zal2{
-   width: 200px;
-}
-
-.dzial3_div{
-   text-align: center;
-}
-.dzial3{
-   height: 120px;
-   border-radius: 10px;
-   width: 140px;
-   white-space: normal;
-   color: rgb(255, 238, 0);
-   background: linear-gradient(90deg, hsla(212, 93%, 49%, 1) 0%,hsla(210, 90%, 80%, 1) 100%);
-   transition: all .2s ease-in-out;
-   margin-left: 20px;
-   margin-bottom: 20px;
-}
-.dzial3:hover{
-   transform: scale(1.1);
-} */
-
-
